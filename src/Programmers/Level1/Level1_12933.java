@@ -1,8 +1,12 @@
 package Programmers.Level1;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 // 정수 내림차순 배치하기 
 public class Level1_12933 {
-
+	
+	// 내가 설계한 메서드 
 	public static long solution(long n) {
 		// long타입(정수)을 문자열로 변환 (배열의 크기를 생성하기 위한것)
 		String r = n + ""; // long 타입에 ""(빈문자열) 더해주면 문자열로 변환이 가능
@@ -41,8 +45,19 @@ public class Level1_12933 {
 		return Long.parseLong(result);
 	}
 	
+	public static int solution1(int n) {
+		String str = Integer.toString(n);
+		// 문자열을 char형 배열로 바꿈  ex) 'ant' -> [0]-a , [1]-n , [2] - t 이런식으로 문자배열에 넣음 
+		char[] c = str.toCharArray(); 
+		
+		Arrays.sort(c);
+		
+		return 0;
+	}
+	
 	public static void main(String[] args) {
-		System.out.println(solution(118372));
+		System.out.println(solution(134560));
+		solution1(1234);
 	}
 
 }
