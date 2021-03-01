@@ -42,6 +42,8 @@ public class BOJ_10871 {
 		 	버퍼에 쌓아놓고 한꺼번에 처리하는게 속도면에서 더빠름 
 		 	Scanner Vs BufferedReader 속도차이 참고 
 		 	: https://sjs2215.tistory.com/93
+		 	split(), StringTokenizer 사용법 참고 
+		 	: https://lnsideout.tistory.com/entry/JAVA-%EC%9E%90%EB%B0%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0-split-StringTokenizer-%EC%B0%A8%EC%9D%B4-%EB%B9%84%EA%B5%90 
 		 */
 		
 		// enter만 경계로 인식
